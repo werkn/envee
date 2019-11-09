@@ -1,0 +1,181 @@
+{
+  "environments": [
+    {
+      "name": "anki",
+      "environment": {
+        "desktop0": {
+          "apps": {}
+        },
+        "desktop1": {
+          "apps": {
+            "firefox": {
+              "processName": "firefox",
+              "startupDelay": 2,
+              "path": "firefox",
+			  "monitor": 0,
+              "args": [],
+              "size": {
+                "mode": "percent",
+                "width": 1.0,
+                "height": 1.0
+              },
+              "topLeft": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            "anki": {
+              "processName": "anki",
+              "startupDelay": 10,
+              "path": "C:\\Program Files\\Anki\\anki.exe",
+			  "monitor": 1,
+              "args": [],
+              "size": {
+                "mode": "percent",
+                "width": 1.0,
+                "height": 1.0
+              },
+              "topLeft": {
+                "mode": "percent",
+                "x": 0,
+                "y": 0
+              }
+            }
+          }
+        },
+        "desktop2": {
+          "apps": {}
+        }
+      }
+    },
+    {
+      "name": "sharpen",
+      "environment": {
+        "desktop0": {
+          "apps": {
+            "appName": {
+              "processName": "GitHubDesktop",
+              "startupDelay": 1,
+              "path": "github",
+              "monitor": 0,
+              "args": [],
+              "size": {
+                "mode": "percent",
+                "width": 0.6,
+                "height": 0.6
+              },
+              "topLeft": {
+                "mode": "percent",
+                "x": 0.2,
+                "y": 0.2
+              }
+            }
+          }
+        },
+        "desktop1": {
+          "apps": {
+            "code": {
+              "processName": "Code",
+              "startupDelay": 4,
+              "path": "code",
+              "monitor": 0,
+              "args": [],
+              "size": {
+                "mode": "percent",
+                "width": 1.0,
+                "height": 1.0
+              },
+              "topLeft": {
+                "mode": "percent",
+                "x": 0,
+                "y": 0
+              }
+            },
+            "chrome": {
+              "processName": "chrome",
+              "startupDelay": 4,
+              "path": "chrome",
+              "monitor": 1,
+              "args": [
+                "https://courses.wesbos.com/account"
+              ],
+              "size": {
+                "mode": "percent",
+                "width": 1.0,
+                "height": 0.5
+              },
+              "topLeft": {
+                "mode": "percent",
+                "x": 0.0,
+                "y": 0.0
+              }
+            },
+            "firefox": {
+              "processName": "firefox",
+              "startupDelay": 2,
+              "path": "firefox",
+              "monitor": 1,
+              "args": [
+                "http://localhost/www-root/"
+              ],
+              "size": {
+                "mode": "percent",
+                "width": 1.0,
+                "height": 1.0
+              },
+              "topLeft": {
+                "mode": "percent",
+                "x": 0,
+                "y": 0
+              }
+            }
+          }
+        },
+        "desktop2": {
+          "apps": {}
+        },
+        "desktop3": {
+          "apps": {}
+        }
+      }
+    },
+	{
+    "name": "mockup",
+    "environment": {
+		"desktop0": {
+			"apps": {}
+		},
+		"desktop1": {
+			"apps": {
+				"appName": {
+					"processName": "chrome",
+					"startupDelay": 1,
+					"path": "chrome",
+					"monitor": 0,
+					"args": [
+						"https://www.draw.io/"
+					],
+					"size": {
+						"mode": "percent",
+						"width": 1.0,
+						"height": 1.0
+					},
+					"topLeft": {
+						"mode": "percent",
+						"x": 0.0,
+						"y": 0.0
+					}
+				}
+			}
+		},
+		"desktop2": {
+			"apps": {}
+		},
+		"desktop3": {
+			"apps": {}
+		}
+		
+		}
+	}
+  ]
+}
